@@ -5,6 +5,12 @@
     margin: 0;
     box-sizing: inherit;
 }
+
+html::-webkit-scrollbar{
+    display: none; //chrome
+    -ms-overflow-style: none; //ie and edge
+    scrollbar-width: none; //firefox
+}
 html{
     font-size: 62.5%;// 1rem = 10px;
     
