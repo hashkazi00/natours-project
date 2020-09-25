@@ -23,7 +23,7 @@ npm install
 npm run watch:sass
 ```
 
-### Compiles and minifies for production
+### Compiles, Prefixes and Minifies for production
 ```
 npm run build:css
 ```
